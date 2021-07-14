@@ -1,0 +1,2 @@
+*000_V1.csv filter=lfs diff=lfs merge=lfs -text
+Dataframe_anime_1_5000_V1.csv filter=lfs diff=lfs merge=lfs -text

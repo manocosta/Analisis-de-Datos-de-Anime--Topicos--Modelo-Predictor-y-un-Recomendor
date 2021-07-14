@@ -21,6 +21,6 @@ a 5000 usuarios para los cuales se tenía indicado con un 1 si un dado anime le 
 para tomar las columnas correspondientes a los animes que un usuario vio para luego compararlos con los datos del resto del dataset y mediante el modelo KNN obtener los vecinos más 
 cercanos. A continuación de esto se evalúan cuáles fueron los animes que más gustaron a estos vecinos y que el usuario en cuestión aún no a visto, obteniendo de esta manera la 
 lista de recomendación. Por último se desarrolló una función para hacer posible el cálculo de una matriz de confusión para poder evaluar la performance del modelo, obteniendo 
-una sensibilidad de 0.931, especificidad de 0.112, accuracy =  0.842, precisión de 0.896. Dado que se trata de un recomendador, lo más importante es que lo que se le recomienda al 
+una sensibilidad de 0.931, especificidad de 0.112, accuracy de 0.842, precisión de 0.896. Dado que se trata de un recomendador, lo más importante es que lo que se le recomienda al 
 usuario le termine gustando, es decir la precisión, para la cual se obtuvieron muy buenos resultados. 
 

@@ -5,6 +5,8 @@ Para este proyecto se utilizaron datos obtenidos de https://www.kaggle.com/herna
 
 ## Anime_Topic_Analisis.ipynb
 
+Google Colab: https://colab.research.google.com/drive/1eCwlTTAkgsqCkRSsz0LhqsYpWtQ6mjrK?usp=sharing
+
 En este proyecto se desarrolló un análisis de tópicos sobre los resúmenes de los animes que se encontraron en el dataset, realizando un pequeño análisis de la evolución de 
 estos en el tiempo. Luego utilizando los resultados del análisis de tópicos y los distintos features que se pudieron obtener del dataset se generó un modelo predictivo de la 
 popularidad de un dado Anime. Para definir la popularidad se utilizó como target el logaritmo en base 10 del número de usuarios que interactuaron con cada anime. Luego 
@@ -15,6 +17,8 @@ cuestionable si este feature sería posible de obtener de antemano en la prácti
 pero aún aceptable.
 
 ## Recomendador_KNN.ipynb
+
+Google Colab: https://colab.research.google.com/drive/1GhpaTSmw62yXkmnwU9HgzOHRQPLG72Tm?usp=sharing
 
 Por otro lado se trabajó en la elaboración de un modelo recomendador, basado en un modelo KNN para encontrar los vecinos más cercanos. Para esto se utilizaron datos correspondientes 
 a 5000 usuarios para los cuales se tenía indicado con un 1 si un dado anime le gusto, un -1 si no le gusto y un 0 si no lo vio (o no dio opinión). Luego se desarrolló una función
